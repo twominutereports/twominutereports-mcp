@@ -1,3 +1,12 @@
-- **Tool Availability Check:** Before performing any analytics or reporting task, verify that tools prefixed with `two-minute-reports__` are present in your available tools. If they are missing, do NOT attempt to use `grep_search`, `read_file`, or
-     other workspace tools to find reports. Instead, immediately inform the user that the extension requires authentication and instruct them to run `/mcp auth two-minute-reports`.
-- **Authentication:** If the two-minute-reports MCP server is disconnected or reports an authentication error, immediately inform the user and instruct them to run the `/mcp auth two-minute-reports` slash command in the chat bar to reconnect.
+# Two Minute Reports
+
+## Authentication
+On first use, Gemini CLI will open a browser window to connect your 
+Two Minute Reports account. Complete the sign-in and return to the terminal — 
+your data will be ready immediately after.
+
+## What you can do
+Once connected, ask questions like:
+- "Show me my Google Ads performance this month"
+- "Compare Facebook and TikTok spend last week"
+- "Which Shopify products had the most revenue in Q1?"
