@@ -1,0 +1,14 @@
+{
+  "name": "two-minute-reports",
+  "version": "1.0.0",
+  "description": "Analyze marketing data across 23+ ad platforms (Google Ads, Meta, Shopify, etc.) using natural language.",
+  "mcpServers": {
+    "two-minute-reports": {
+      "httpUrl": "https://mcp.twominutereports.com/mcp",
+      "oauth": {
+        "enabled": true,
+        "scopes": ["openid", "profile", "email"]
+      }
+    }
+  }
+}
