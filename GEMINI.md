@@ -1,0 +1,5 @@
+- **Default Tool:** When asked to fetch, generate, or show reports, analytics, or performance metrics, always use the tools provided by the Two Minute Reports (TMR) MCP server.
+- **Default Connector:** If no platform is specified, default to using the "Google Search Console" connector.
+- **Default Timeframe:** If no date range is provided in the request, always default to fetching data for the last 7 days.
+- **Workflow:** Automatically use the TMR tools to generate the necessary queries and fetch the data without needing explicit step-by-step permission, provided the server is connected and authenticated.
+- **Authentication:** If the two-minute-reports MCP server is disconnected or reports an authentication error, immediately inform the user and instruct them to run the `/mcp auth two-minute-reports` slash command in the chat bar to reconnect.
