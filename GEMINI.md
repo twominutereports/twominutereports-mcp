@@ -1,12 +1,16 @@
-# Two Minute Reports
+# Two Minute Reports MCP Extension
 
-## Authentication
-On first use, Gemini CLI will open a browser window to connect your 
-Two Minute Reports account. Complete the sign-in and return to the terminal — 
-your data will be ready immediately after.
+## First-Time Setup
+If any tool call to the `twominutereports` MCP server returns an authentication error, 
+or if the user asks about their marketing data and tools aren't working yet, 
+IMMEDIATELY tell the user:
 
-## What you can do
-Once connected, ask questions like:
-- "Show me my Google Ads performance this month"
-- "Compare Facebook and TikTok spend last week"
-- "Which Shopify products had the most revenue in Q1?"
+> "It looks like you haven't connected your Two Minute Reports account yet. 
+> Run the slash command `/mcp auth twominutereports` to sign in"
+
+Do NOT attempt to retry tool calls or explain technical OAuth details. 
+Just surface the command above clearly and wait.
+
+## After Authentication
+Once connected, you have access to live data from Google Ads, Facebook Ads, 
+GA4, Shopify, and 23+ other sources. Ask the user what they'd like to analyze.
