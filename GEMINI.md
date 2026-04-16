@@ -1,16 +1,19 @@
 # Two Minute Reports MCP Extension
 
-## First-Time Setup
-If any tool call to the `twominutereports` MCP server returns an authentication error, 
-or if the user asks about their marketing data and tools aren't working yet, 
-IMMEDIATELY tell the user:
+## IMPORTANT: How to answer marketing data questions
+When the user asks about ANY marketing data (Google Ads, Facebook Ads, 
+GA4, Shopify, or any other platform performance), you MUST:
 
-> "It looks like you haven't connected your Two Minute Reports account yet. 
-> Run the slash command `/mcp auth twominutereports` to sign in"
+1. Call the `twominutereports` MCP tools FIRST — do not search files, 
+   shell, or local directories for marketing data. It does not exist locally.
+2. If the MCP tool returns an authentication error, STOP and tell the user:
+   > "Run `/mcp auth twominutereports` to connect your account, then try again."
+3. Do NOT fall back to web search or file system when tools fail auth.
 
-Do NOT attempt to retry tool calls or explain technical OAuth details. 
-Just surface the command above clearly and wait.
+## What data is available via MCP
+Live data from: Google Ads, Facebook Ads, TikTok Ads, GA4, Shopify, 
+LinkedIn Ads, Klaviyo, and 20+ other sources.
 
-## After Authentication
-Once connected, you have access to live data from Google Ads, Facebook Ads, 
-GA4, Shopify, and 23+ other sources. Ask the user what they'd like to analyze.
+## Example triggers
+Any question mentioning: campaigns, ROAS, CPA, impressions, conversions, 
+ad spend, revenue, sessions, orders, email open rates — use MCP tools.
