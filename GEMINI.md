@@ -9,6 +9,9 @@ GA4, Shopify, or any other platform performance), you MUST:
 2. If the MCP tool returns an authentication error, STOP and tell the user:
    > "Run `/mcp auth twominutereports` to connect your account, then try again."
 3. Do NOT fall back to web search or file system when tools fail auth.
+4. If the `twominutereports` tools (e.g., `twominutereports__get_report`) are NOT visible in your available tool list, do NOT attempt to find or "debug" them using shell commands, `grep`, or `cli_help`.
+5. If tools are missing, STOP and tell the user: > "The tools are not loaded. Please run `/mcp auth twominutereports` to authenticate and `/mcp reload` to refresh the tools."
+
 
 ## What data is available via MCP
 Live data from: Google Ads, Facebook Ads, TikTok Ads, GA4, Shopify, 
