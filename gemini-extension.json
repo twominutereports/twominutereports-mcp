@@ -1,6 +1,6 @@
 {
   "name": "two-minute-reports",
-  "description": "Analyse SEO, PPC, E-Commerce from 30+ marketing sources",
+  "description": "Analyse SEO, PPC, E-Commerce from 30+ marketing sources.\nConnect to your marketing stack with Two Minute Reports. Analyze data from Facebook Ads, Google Ads, TikTok Ads, LinkedIn Ads, Amazon Ads, Google Analytics 4 (GA4), Shopify, Amazon Seller Central, HubSpot, LinkedIn Pages, Facebook Insights, Instagram Insights, YouTube Analytics, Google Search Console, Google My Business, Google Trends, and PageSpeed Insights, all in one place.\nAsk questions in natural language and instantly get insights on CTR, CPC, conversions, ROAS, ad spend, SEO performance, engagement, and revenue trends across channels. Built for marketing agencies, growth teams, and data analysts, it turns multi-platform marketing data into clear, actionable insights directly inside.",
   "version": "1.0.0",
   "mcpServers": {
     "two-minute-reports": {
