@@ -1,8 +1,9 @@
 {
-  "name": "twominutereports",
+  "name": "two-minute-reports",
+  "description": "Analyse SEO, PPC, E-Commerce from 30+ marketing sources",
   "version": "1.0.0",
   "mcpServers": {
-    "twominutereports": {
+    "two-minute-reports": {
       "url": "https://mcp.twominutereports.com/mcp"
     }
   },
